@@ -1,35 +1,43 @@
-html {
-  box-sizing: border-box;
-  font-size: 1.2rem;
-  margin: 0px;
-  padding: 0px;
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    font: 1.5em;
+    background-color: lightgray;
+}
+:root {
+    box-sizing: border-box;
+}
+*, ::before , ::after {
+    box-sizing: inherit;
 }
 .header {
-    border-bottom: 1px solid rgb(200, 236, 167);
-}
-nav {
-    background-color: rgb(240, 194, 176);
-    padding: 2px;
-}
-nav .list1 {
-    font-size: 25px;
-    list-style: none;
-    display: flex;
-    gap: 1em;
-}
-nav .list1 a:link {
-    text-decoration: none;
     color: white;
+    padding: 5px 5px 5px 10px;
+    border-radius: 0.5em;
+    margin: 0px;
+    background-color: #210e68;
 }
-nav .list1 a:visited {
-    color: lightcoral;
+
+.details {
+    background-color: white;
+    padding: 5px 0px 5px 10px;
+    margin-top: 15px;
+    float: left;
+    width: 70%;
+    border-radius: 0.5em;
 }
-nav .list1 a:active {
-    color: black;
+.aside {
+    float: left;
+    margin-top: 20px;
+    background-color: white;
+    width: 30%;
+    border-radius: 0.5em;
+    padding: 10px;
 }
-nav .list1 a:hover {
-    color: brown;
+.widget {
+    padding: 7px;
 }
-body {
-   background-color: antiquewhite;
+.button {
+    background-color: rgb(38, 38, 172);
+    color: white;
+    padding: 5px 50px 5px 50px;
 }
