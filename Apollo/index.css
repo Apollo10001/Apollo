@@ -29,9 +29,11 @@ body {
     float: left;
     margin-top: 20px;
     background-color: white;
-    width: 30%;
+    width: calc(30% - 1.5em);
+    margin-left: 1.5em;
     border-radius: 0.5em;
     padding: 10px;
+    overflow: auto;
 }
 .widget {
     padding: 7px;
