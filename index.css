@@ -54,3 +54,62 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+@media (max-width = 1080px) {
+    :root {
+        box-sizing: border-box;
+        --fontcolor: rgb(173, 96, 96);
+        --backcolor: rgb(250, 221, 142);
+        --headercolor: rgb(175, 85, 85);
+        --leftbcolor: #fff;
+        --rightbcolor: #fff;
+    }
+    *, ::before ::after {
+        box-sizing: inherit;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: var(--backcolor);
+    }
+    
+    .header {
+        background-color: var(--headercolor);
+        padding: 0.5em 1em;
+        border-bottom: solid 0.1em;
+        font-size: 0.6em;
+        margin-bottom: 0.75em;
+    }
+    .WholeB {
+        display: flex;
+    }
+    .left {
+        display: table-row;
+        background-color: var(--leftbcolor);
+        border-radius: 0.5em;
+        width: calc(50% - 0.6em);
+        margin: 0 0.6em 0.6em 0.6em;
+        padding: 0.6em;
+        line-height: 0.75em;
+    }
+    .right {
+        display: table-row;
+        background-color: #fff;
+        border-radius: 0.5em;
+        width: calc(50% - 0.6em);
+        margin: 0 0.6em 0.6em 0.6em;
+        padding: 0.6em;
+        line-height: 0.75em;
+    }
+    .footer {
+        font-size: small;
+        background-color: black;
+        color: white;
+        padding: 0.65em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+}
