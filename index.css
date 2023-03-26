@@ -17,10 +17,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--backcolor);
 }
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
-}
+
 .header {
     background-color: var(--headercolor);
     padding: 1em 1.5em;
