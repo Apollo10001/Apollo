@@ -45,3 +45,11 @@ nav a {
 .all > .sec {
     color: white;
 }
+
+@media (max-width: 1080px) {
+  .flex {
+    flex-direction: column;
+  }
+  .all {
+    flex-basis: 100%;
+  }
